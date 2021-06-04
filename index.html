@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="logo"><h1><b>Katia <c>Modas</c></b></h1></div>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Moda feminina</label>
+                    <a href="#">Moda feminina</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">Calças</a></li>
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Saias</a></li>
+                        <li><a href="#">Croppeds</a></li>
+                        <li><a href="#">Blusas</a></li>
+                    </ul> 
+
+                </li>
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Moda masculina</label>
+                <a href="#">Moda masculina</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Calças</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Camisas</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Contate-nos</a></li>
+                <li><a href="#">Sobre-nós</a></li>
+            </ul>
+        </nav>
+    <main>
+        <img src="imagens/192332806_312289993723506_8031002308234693898_n-removebg-preview.png">
+        <section class="info">
+            <p>Vestido longo casual para festas</p>
+            <div class="preco"><d>Por </d><r>R$120,00</r></div>
+                <select id="size">
+                    <option value = "0">Extra-Pequeno</option>
+                    <option value = "1">Pequeno</option>
+                    <option value = "2">Médio</option>
+                    <option value = "3">Grande</option>
+                    <option value = "4">Extra-Grande</option>
+                </select>
+                <div class="grupo">
+                    <div class="quant">Quantidade:</div><input type="text" name="Quantidade" id="quant">
+                </div>
+            <ul class="caracteristicas">
+                <li>Ideal para qualquer ambiente</li>
+                <li>Modelo confortável</li>
+                <li>Compõe qualquer look!</li>
+                <li>Caimento perfeito! se adapta ao corpo</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
